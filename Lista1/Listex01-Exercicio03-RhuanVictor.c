@@ -43,7 +43,7 @@ int main(){
 
     printf("array ordenado:");
     imprimeArray(numeros, n);
-    printf("operações necessarias: %d", ops);
+    printf("operacoes necessarias: %d", ops);
 }
 
 void imprimeArray(int a[], int n )
