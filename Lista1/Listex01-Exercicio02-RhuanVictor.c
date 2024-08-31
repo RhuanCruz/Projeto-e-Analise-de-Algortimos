@@ -7,7 +7,7 @@ void ehPrimo(int n);
 int main(){
     int num_aleatorio;
     srand(time(NULL));
-    num_aleatorio = rand() % 100;
+    num_aleatorio = rand() % 100; // gera numero aleatorio de entre 0 e 100
 
     printf("numero gerado: %d", num_aleatorio);
     int valor = ehPrimo(num_aleatorio);
